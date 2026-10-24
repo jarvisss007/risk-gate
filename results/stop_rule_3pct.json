@@ -1,0 +1,82 @@
+{
+ "data": "8487 closes 1993-01-29..2026-10-16",
+ "cost_per_side": 0.001,
+ "split": "2010-01-01",
+ "sma_window": 200,
+ "rule": "trailing stop X% off the equity high, exit at that close; re-entry: N = after N sessions; SMA = first close above the 200-day SMA; BOTH21 = both",
+ "hold": {
+  "cagr": 0.1078,
+  "maxdd": -0.5519,
+  "h1_cagr": 0.0755,
+  "h1_maxdd": -0.5519,
+  "h2_cagr": 0.1403,
+  "h2_maxdd": -0.3372
+ },
+ "cells": [
+  {
+   "stop": "HOLD",
+   "reentry": "",
+   "cagr": 0.1077948066,
+   "maxdd": -0.5518941528,
+   "calmar": 0.1953178994,
+   "fires": 0,
+   "flat": 0.0,
+   "cagr_h1": 0.0755053216,
+   "maxdd_h1": -0.5518941528,
+   "cagr_h2": 0.1402509685,
+   "maxdd_h2": -0.337172819
+  },
+  {
+   "stop": "3%",
+   "reentry": "N21",
+   "cagr": 0.0339878089,
+   "maxdd": -0.3516677458,
+   "calmar": 0.0966475012,
+   "fires": 171,
+   "flat": 0.4030167334,
+   "cagr_h1": 0.0170430602,
+   "maxdd_h1": -0.3516677458,
+   "cagr_h2": 0.050320656,
+   "maxdd_h2": -0.1993394273
+  },
+  {
+   "stop": "3%",
+   "reentry": "N63",
+   "cagr": 0.0309353161,
+   "maxdd": -0.2818681894,
+   "calmar": 0.1097510018,
+   "fires": 84,
+   "flat": 0.6137167099,
+   "cagr_h1": 0.0317401107,
+   "maxdd_h1": -0.2818681894,
+   "cagr_h2": 0.0302443095,
+   "maxdd_h2": -0.1755189232
+  },
+  {
+   "stop": "3%",
+   "reentry": "SMA",
+   "cagr": 0.1050366988,
+   "maxdd": -0.1987032172,
+   "calmar": 0.528610962,
+   "fires": 226,
+   "flat": 0.2148244167,
+   "cagr_h1": 0.0969995956,
+   "maxdd_h1": -0.1713123858,
+   "cagr_h2": 0.1121536965,
+   "maxdd_h2": -0.1987032172
+  },
+  {
+   "stop": "3%",
+   "reentry": "BOTH21",
+   "cagr": 0.0463665539,
+   "maxdd": -0.1626942683,
+   "calmar": 0.2849919325,
+   "fires": 127,
+   "flat": 0.4687720952,
+   "cagr_h1": 0.0419470717,
+   "maxdd_h1": -0.138376545,
+   "cagr_h2": 0.0498180122,
+   "maxdd_h2": -0.1626942683
+  }
+ ]
+}

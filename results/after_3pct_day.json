@@ -1,0 +1,9 @@
+{
+ "drop": -0.03,
+ "horizon_sessions": 21,
+ "n_events": 103,
+ "share_up": 0.6505,
+ "mean_return": 0.0188,
+ "all_days_share_up": 0.6577,
+ "all_days_mean_return": 0.0097
+}
