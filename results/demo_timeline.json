@@ -1,0 +1,1031 @@
+{
+ "synthetic": true,
+ "sessions": 67,
+ "entries_allowed": 207,
+ "entries_refused": 128,
+ "keys_set": 3,
+ "keys_cleared": 3,
+ "history": [
+  {
+   "action": "set",
+   "by": "rule:budget",
+   "date": "2026-10-06",
+   "key": "budget:options arm A",
+   "reason": "options arm A at 9.40% of equity at risk > 8% ceiling at the 2026-10-06 close; NEW entries of that desk refused until back inside; nothing is sold"
+  },
+  {
+   "action": "set",
+   "by": "rule:budget",
+   "date": "2026-10-07",
+   "key": "budget:sector:semiconductors",
+   "reason": "sector semiconductors at 27.50% of equity at risk > 25% cap at the 2026-10-07 close; NEW entries of that sector refused until back inside; nothing is sold"
+  },
+  {
+   "action": "set",
+   "by": "rule:kill-line",
+   "date": "2026-10-09",
+   "key": "kill",
+   "reason": "equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+  },
+  {
+   "action": "clear",
+   "by": "rule:budget",
+   "date": "2026-10-12",
+   "key": "budget:options arm A",
+   "lifted": "2026-10-12: back inside its limit at the close",
+   "was": {
+    "reason": "options arm A at 9.40% of equity at risk > 8% ceiling at the 2026-10-06 close; NEW entries of that desk refused until back inside; nothing is sold",
+    "since": "2026-10-06"
+   }
+  },
+  {
+   "action": "clear",
+   "by": "rule:budget",
+   "date": "2026-10-12",
+   "key": "budget:sector:semiconductors",
+   "lifted": "2026-10-12: back inside its limit at the close",
+   "was": {
+    "reason": "sector semiconductors at 27.50% of equity at risk > 25% cap at the 2026-10-07 close; NEW entries of that sector refused until back inside; nothing is sold",
+    "since": "2026-10-07"
+   }
+  },
+  {
+   "action": "clear",
+   "by": "rule:kill-line",
+   "date": "2026-11-13",
+   "key": "kill",
+   "lifted": "2026-11-13: equity 96.49 above the line 95.50; index 1167.81 > SMA200 1145.995; 25 sessions since set (>= 21)",
+   "was": {
+    "reason": "equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold",
+    "since": "2026-10-09"
+   }
+  }
+ ],
+ "refusal_scoring": {
+  "n_refusals": 128,
+  "n_scored": 128,
+  "n_protective": 41,
+  "share_protective": 0.3203,
+  "mean_entry_return_avoided": 0.033046,
+  "horizon_sessions": 10
+ },
+ "timeline": [
+  {
+   "session": "2026-09-01",
+   "equity": 100.4,
+   "line": 90.36,
+   "drawdown_pct": 0.0,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-02",
+   "equity": 100.92,
+   "line": 90.83,
+   "drawdown_pct": 0.0,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-03",
+   "equity": 101.22,
+   "line": 91.09,
+   "drawdown_pct": 0.0,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-04",
+   "equity": 101.26,
+   "line": 91.13,
+   "drawdown_pct": 0.0,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-08",
+   "equity": 101.48,
+   "line": 91.33,
+   "drawdown_pct": 0.0,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-09",
+   "equity": 101.48,
+   "line": 91.34,
+   "drawdown_pct": 0.0,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-10",
+   "equity": 101.91,
+   "line": 91.72,
+   "drawdown_pct": 0.0,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-11",
+   "equity": 102.87,
+   "line": 92.58,
+   "drawdown_pct": 0.0,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-14",
+   "equity": 103.08,
+   "line": 92.77,
+   "drawdown_pct": 0.0,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-15",
+   "equity": 103.23,
+   "line": 92.91,
+   "drawdown_pct": 0.0,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-16",
+   "equity": 103.85,
+   "line": 93.46,
+   "drawdown_pct": 0.0,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-17",
+   "equity": 104.41,
+   "line": 93.97,
+   "drawdown_pct": 0.0,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-18",
+   "equity": 104.87,
+   "line": 94.39,
+   "drawdown_pct": 0.0,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-21",
+   "equity": 104.9,
+   "line": 94.41,
+   "drawdown_pct": 0.0,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-22",
+   "equity": 105.31,
+   "line": 94.78,
+   "drawdown_pct": 0.0,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-23",
+   "equity": 106.02,
+   "line": 95.42,
+   "drawdown_pct": 0.0,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-24",
+   "equity": 105.88,
+   "line": 95.42,
+   "drawdown_pct": -0.14,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-25",
+   "equity": 106.11,
+   "line": 95.5,
+   "drawdown_pct": 0.0,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-28",
+   "equity": 104.51,
+   "line": 95.5,
+   "drawdown_pct": -1.51,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-29",
+   "equity": 103.18,
+   "line": 95.5,
+   "drawdown_pct": -2.76,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-09-30",
+   "equity": 101.65,
+   "line": 95.5,
+   "drawdown_pct": -4.2,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-10-01",
+   "equity": 100.79,
+   "line": 95.5,
+   "drawdown_pct": -5.01,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-10-02",
+   "equity": 99.52,
+   "line": 95.5,
+   "drawdown_pct": -6.21,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-10-05",
+   "equity": 98.89,
+   "line": 95.5,
+   "drawdown_pct": -6.81,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-10-06",
+   "equity": 98.21,
+   "line": 95.5,
+   "drawdown_pct": -7.45,
+   "actions": [
+    "SET budget:options arm A: options arm A at 9.40% of equity at risk > 8% ceiling"
+   ],
+   "refused": [
+    "options arm A long debit CCC <- budget:options arm A"
+   ],
+   "standing_after": [
+    "budget:options arm A since 2026-10-06: options arm A at 9.40% of equity at risk > 8% ceiling at the 2026-10-06 close; NEW entries of that desk refused until back inside; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-10-07",
+   "equity": 97.4,
+   "line": 95.5,
+   "drawdown_pct": -8.21,
+   "actions": [
+    "SET budget:sector:semiconductors: sector semiconductors at 27.50% of equity at risk > 25% cap"
+   ],
+   "refused": [
+    "options arm A long debit CCC <- budget:options arm A"
+   ],
+   "standing_after": [
+    "budget:options arm A since 2026-10-06: options arm A at 9.40% of equity at risk > 8% ceiling at the 2026-10-06 close; NEW entries of that desk refused until back inside; nothing is sold",
+    "budget:sector:semiconductors since 2026-10-07: sector semiconductors at 27.50% of equity at risk > 25% cap at the 2026-10-07 close; NEW entries of that sector refused until back inside; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-10-08",
+   "equity": 95.68,
+   "line": 95.5,
+   "drawdown_pct": -9.82,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [
+    "options arm A long debit CCC <- budget:options arm A"
+   ],
+   "standing_after": [
+    "budget:options arm A since 2026-10-06: options arm A at 9.40% of equity at risk > 8% ceiling at the 2026-10-06 close; NEW entries of that desk refused until back inside; nothing is sold",
+    "budget:sector:semiconductors since 2026-10-07: sector semiconductors at 27.50% of equity at risk > 25% cap at the 2026-10-07 close; NEW entries of that sector refused until back inside; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-10-09",
+   "equity": 94.76,
+   "line": 95.5,
+   "drawdown_pct": -10.69,
+   "actions": [
+    "SET kill: drawdown -10.69% from the HWM"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold",
+    "budget:options arm A since 2026-10-06: options arm A at 9.40% of equity at risk > 8% ceiling at the 2026-10-06 close; NEW entries of that desk refused until back inside; nothing is sold",
+    "budget:sector:semiconductors since 2026-10-07: sector semiconductors at 27.50% of equity at risk > 25% cap at the 2026-10-07 close; NEW entries of that sector refused until back inside; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-10-12",
+   "equity": 94.03,
+   "line": 95.5,
+   "drawdown_pct": -11.38,
+   "actions": [
+    "kill stands: equity at or under the line; index above the SMA; 1 of 21 sessions",
+    "CLEARED budget:options arm A: back inside",
+    "CLEARED budget:sector:semiconductors: back inside"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-10-13",
+   "equity": 93.37,
+   "line": 95.5,
+   "drawdown_pct": -12.01,
+   "actions": [
+    "kill stands: equity at or under the line; index above the SMA; 2 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-10-14",
+   "equity": 90.19,
+   "line": 95.5,
+   "drawdown_pct": -15.0,
+   "actions": [
+    "kill stands: equity at or under the line; index above the SMA; 3 of 21 sessions",
+    "brake NOT ENFORCED: would set until 2026-10-16 (day return -3.40%)"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-10-15",
+   "equity": 89.89,
+   "line": 95.5,
+   "drawdown_pct": -15.29,
+   "actions": [
+    "kill stands: equity at or under the line; index above the SMA; 4 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-10-16",
+   "equity": 89.4,
+   "line": 95.5,
+   "drawdown_pct": -15.75,
+   "actions": [
+    "kill stands: equity at or under the line; index above the SMA; 5 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-10-19",
+   "equity": 88.98,
+   "line": 95.5,
+   "drawdown_pct": -16.15,
+   "actions": [
+    "kill stands: equity at or under the line; index not above the SMA; 6 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-10-20",
+   "equity": 89.22,
+   "line": 95.5,
+   "drawdown_pct": -15.91,
+   "actions": [
+    "kill stands: equity at or under the line; index not above the SMA; 7 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-10-21",
+   "equity": 88.8,
+   "line": 95.5,
+   "drawdown_pct": -16.31,
+   "actions": [
+    "kill stands: equity at or under the line; index not above the SMA; 8 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-10-22",
+   "equity": 88.65,
+   "line": 95.5,
+   "drawdown_pct": -16.45,
+   "actions": [
+    "kill stands: equity at or under the line; index not above the SMA; 9 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-10-23",
+   "equity": 88.84,
+   "line": 95.5,
+   "drawdown_pct": -16.28,
+   "actions": [
+    "kill stands: equity at or under the line; index not above the SMA; 10 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-10-26",
+   "equity": 89.12,
+   "line": 95.5,
+   "drawdown_pct": -16.01,
+   "actions": [
+    "kill stands: equity at or under the line; index not above the SMA; 11 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-10-27",
+   "equity": 89.57,
+   "line": 95.5,
+   "drawdown_pct": -15.59,
+   "actions": [
+    "kill stands: equity at or under the line; index not above the SMA; 12 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-10-28",
+   "equity": 90.1,
+   "line": 95.5,
+   "drawdown_pct": -15.09,
+   "actions": [
+    "kill stands: equity at or under the line; index not above the SMA; 13 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-10-29",
+   "equity": 90.62,
+   "line": 95.5,
+   "drawdown_pct": -14.6,
+   "actions": [
+    "kill stands: equity at or under the line; index not above the SMA; 14 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-10-30",
+   "equity": 90.67,
+   "line": 95.5,
+   "drawdown_pct": -14.55,
+   "actions": [
+    "kill stands: equity at or under the line; index not above the SMA; 15 of 21 sessions",
+    "regime NOT ENFORCED: would set"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-11-02",
+   "equity": 91.2,
+   "line": 95.5,
+   "drawdown_pct": -14.05,
+   "actions": [
+    "kill stands: equity at or under the line; index not above the SMA; 16 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-11-03",
+   "equity": 92.2,
+   "line": 95.5,
+   "drawdown_pct": -13.11,
+   "actions": [
+    "kill stands: equity at or under the line; index not above the SMA; 17 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-11-04",
+   "equity": 92.13,
+   "line": 95.5,
+   "drawdown_pct": -13.17,
+   "actions": [
+    "kill stands: equity at or under the line; index not above the SMA; 18 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-11-05",
+   "equity": 92.96,
+   "line": 95.5,
+   "drawdown_pct": -12.4,
+   "actions": [
+    "kill stands: equity at or under the line; index not above the SMA; 19 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-11-06",
+   "equity": 93.51,
+   "line": 95.5,
+   "drawdown_pct": -11.87,
+   "actions": [
+    "kill stands: equity at or under the line; index not above the SMA; 20 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-11-09",
+   "equity": 93.79,
+   "line": 95.5,
+   "drawdown_pct": -11.61,
+   "actions": [
+    "kill stands: equity at or under the line; index not above the SMA; 21 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-11-10",
+   "equity": 95.05,
+   "line": 95.5,
+   "drawdown_pct": -10.42,
+   "actions": [
+    "kill stands: equity at or under the line; index not above the SMA; 22 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-11-11",
+   "equity": 95.86,
+   "line": 95.5,
+   "drawdown_pct": -9.65,
+   "actions": [
+    "kill stands: equity above the line; index not above the SMA; 23 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-11-12",
+   "equity": 95.93,
+   "line": 95.5,
+   "drawdown_pct": -9.59,
+   "actions": [
+    "kill stands: equity above the line; index not above the SMA; 24 of 21 sessions"
+   ],
+   "refused": [
+    "insider desk long stock AAA <- kill",
+    "fundamentals desk long stock BBB <- kill",
+    "pattern desk short stock EEE <- kill",
+    "options arm A long debit CCC <- kill",
+    "options arm B long credit DDD <- kill"
+   ],
+   "standing_after": [
+    "kill since 2026-10-09: equity 94.76 at or under the line 95.50 (90% of the closing high-water mark 106.11 on 2026-09-25); every desk's NEW entries are refused; nothing is sold"
+   ]
+  },
+  {
+   "session": "2026-11-13",
+   "equity": 96.49,
+   "line": 95.5,
+   "drawdown_pct": -9.07,
+   "actions": [
+    "CLEARED kill: re-entry rule met"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-11-16",
+   "equity": 96.9,
+   "line": 95.5,
+   "drawdown_pct": -8.68,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-11-17",
+   "equity": 97.02,
+   "line": 95.5,
+   "drawdown_pct": -8.56,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-11-18",
+   "equity": 97.48,
+   "line": 95.5,
+   "drawdown_pct": -8.13,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-11-19",
+   "equity": 97.65,
+   "line": 95.5,
+   "drawdown_pct": -7.97,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-11-20",
+   "equity": 98.11,
+   "line": 95.5,
+   "drawdown_pct": -7.54,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-11-23",
+   "equity": 98.87,
+   "line": 95.5,
+   "drawdown_pct": -6.82,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-11-24",
+   "equity": 98.8,
+   "line": 95.5,
+   "drawdown_pct": -6.89,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-11-25",
+   "equity": 99.08,
+   "line": 95.5,
+   "drawdown_pct": -6.63,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-11-27",
+   "equity": 99.09,
+   "line": 95.5,
+   "drawdown_pct": -6.61,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-11-30",
+   "equity": 99.34,
+   "line": 95.5,
+   "drawdown_pct": -6.38,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-12-01",
+   "equity": 99.07,
+   "line": 95.5,
+   "drawdown_pct": -6.64,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-12-02",
+   "equity": 99.04,
+   "line": 95.5,
+   "drawdown_pct": -6.67,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-12-03",
+   "equity": 99.16,
+   "line": 95.5,
+   "drawdown_pct": -6.55,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  },
+  {
+   "session": "2026-12-04",
+   "equity": 99.71,
+   "line": 95.5,
+   "drawdown_pct": -6.03,
+   "actions": [
+    "no key moved"
+   ],
+   "refused": [],
+   "standing_after": []
+  }
+ ]
+}
