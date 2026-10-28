@@ -1,5 +1,7 @@
 # risk-gate
 
+[![ci](https://github.com/jarvisss007/risk-gate/actions/workflows/ci.yml/badge.svg)](https://github.com/jarvisss007/risk-gate/actions/workflows/ci.yml)
+
 **A risk layer the agents cannot talk their way around.**
 After the worst day of a paper-only research estate run by AI agents, its operator asked for a stop loss, for shorts
 when the market falls, and for the agents to "make it positive". The data said no to the first, no to the second and
